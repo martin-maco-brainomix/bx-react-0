@@ -1,0 +1,19 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.test-component {
+  padding: 10px;
+  margin: 10px 0;
+
+  &.interactive {
+    &:hover {
+      cursor: pointer;
+      filter: brightness(1.1);
+    }
+  }
+}
